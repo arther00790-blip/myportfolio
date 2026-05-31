@@ -1,4 +1,17 @@
 /* =====================================================
+   Page Top Button
+   ===================================================== */
+const pageTop = document.getElementById('pageTop');
+
+window.addEventListener('scroll', () => {
+  pageTop.classList.toggle('visible', window.scrollY > 300);
+});
+
+pageTop.addEventListener('click', () => {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+});
+
+/* =====================================================
    Navigation — scroll shadow & mobile menu
    ===================================================== */
 const nav = document.getElementById('nav');
