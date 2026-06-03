@@ -1,0 +1,32 @@
+# 環境変数・機密情報
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+
+# エディタ設定
+.vscode/
+.idea/
+*.suo
+*.user
+
+# OS生成ファイル
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 依存関係
+node_modules/
+
+# ログ
+*.log
+npm-debug.log*
+
+# 作業メモ（公開不要）
+portfolio.md
+
+# メディアファイル（外部ホスティングで管理）
+photo/
+movie/
