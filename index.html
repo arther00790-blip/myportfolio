@@ -18,6 +18,7 @@
         <li><a href="#skills">Skills</a></li>
         <li><a href="#works">Works</a></li>
         <li><a href="#deliverables">Deliverables</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
       <button class="hamburger" id="hamburger" aria-label="メニューを開く">
         <span></span><span></span><span></span>
@@ -28,6 +29,7 @@
       <li><a href="#works">Works</a></li>
       <li><a href="#skills">Skills</a></li>
       <li><a href="#deliverables">Deliverables</a></li>
+      <li><a href="#contact">Contact</a></li>
     </ul>
   </nav>
 
@@ -258,6 +260,38 @@
           <p>LP・社内ポータルの高速制作</p>
         </div>
       </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2 class="section-title reveal">Contact</h2>
+      <p class="contact-lead reveal">お仕事のご相談・ご質問はこちらからお気軽にどうぞ。</p>
+      <form
+        class="contact-form reveal delay-1"
+        action="https://formspree.io/f/YOUR_FORM_ID"
+        method="POST"
+      >
+        <div class="form-group">
+          <label for="name">お名前 <span class="required">*</span></label>
+          <input type="text" id="name" name="name" placeholder="山田 太郎" required />
+        </div>
+        <div class="form-group">
+          <label for="email">メールアドレス <span class="required">*</span></label>
+          <input type="email" id="email" name="email" placeholder="example@email.com" required />
+        </div>
+        <div class="form-group">
+          <label for="tel">電話番号</label>
+          <input type="tel" id="tel" name="tel" placeholder="090-0000-0000" />
+        </div>
+        <div class="form-group">
+          <label for="message">お問い合わせ内容 <span class="required">*</span></label>
+          <textarea id="message" name="message" rows="6" placeholder="ご相談内容をご記入ください。" required></textarea>
+        </div>
+        <input type="hidden" name="_replyto" value="arther00790@gmail.com" />
+        <button type="submit" class="btn-submit">送信する <span class="arrow">→</span></button>
+      </form>
     </div>
   </section>
 
